@@ -36,3 +36,10 @@ factorialize(5);
 ```
 
 ### 找出字符串中的最长单词
+
+```js
+function findLongestWordLength(str) {
+  return Math.max(...str.split(" ").map(word => word.length));
+}
+```
+
